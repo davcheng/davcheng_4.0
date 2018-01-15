@@ -42,7 +42,7 @@ body {
 
 /* line 106, ../scss/_settings.scss */
 .parallax-background-1 {
-  background: url("/assets/bg-photos/chelsea-pier.jpg") no-repeat center transparent;
+  background: url("/assets/bg-photos/chelsea-pier.png") no-repeat center transparent;
   top: 0px;
   z-index: -2;
   height: 700px;
