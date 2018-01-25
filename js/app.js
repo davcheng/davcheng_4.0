@@ -22,8 +22,6 @@ $(document).ready(function() {
 
 	//background array
 	var bg_img = [
-	// 'bg-sunrise',
-	// 'bg-hood',
 	'bg-chelsea-pier',
 	'bg-nats',
 	'bg-portland',
@@ -31,13 +29,10 @@ $(document).ready(function() {
 	'bg-seattle',
 	'bg-sf-bay',
 	'bg-toronto',
-	// 'bg-london-bridge'
 	];
 
 	//background titles
 	var bg_title = {
-		// 'bg-sunrise': '[Sibilini Park, Italy]',
-		// 'bg-hood': '[Mt. Hood - Portland, Oregon]',
 		'bg-chelsea-pier': '[Chelsea Pier - New York City, New York]',
 		'bg-nats': '[Nats Stadium - Washington, DC]',
 		'bg-portland': '[Portland, Oregon]',
@@ -45,8 +40,6 @@ $(document).ready(function() {
 		'bg-seattle': '[Pike Place - Seattle, Washington]',
 		'bg-sf-bay': '[Half Moon Bay, California]',
 		'bg-toronto': '[Toronto, Ontario]',
-		// 'bg-jap-garden': '[Japanese Garden - Portland, Oregon]',
-		// 'bg-london-bridge': '[London Bridge - London, England]',
 	};
 
 	/*fadein to pages */
