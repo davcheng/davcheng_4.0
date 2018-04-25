@@ -102,6 +102,19 @@ body {
   width: 100%;
 }
 
+
+.parallax-background-3 {
+  z-index: 2;
+  opacity: 1;
+  min-height: 220px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+}
+
 /* line 178, ../scss/_settings.scss */
 .parallax-footer {
   background-color: #fff;
@@ -145,11 +158,21 @@ body {
 /* line 221, ../scss/_settings.scss */
 .section-title {
   font-weight: 600;
+  font-size: 24px;
 }
 
 /* line 225, ../scss/_settings.scss */
 .section-content, .section-content li, .project-desc li {
   font-size: 14px;
+}
+
+.about-me-header {
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+.section-content li about-me-text {
+  font-size: 22px;
 }
 
 /* line 229, ../scss/_settings.scss */

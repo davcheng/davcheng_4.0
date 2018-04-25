@@ -57,18 +57,18 @@ $(document).ready(function() {
 
 	/*change backgrounds on click*/
 	var x=random_int+1;
-    $('#refresh-img').click(function(){
+  $('#refresh-img').click(function(){
 
-		$('#bg-img').removeClass();
-		$('#bg-img').addClass(bg_img[x]);
-		$('#bg-img').addClass("parallax-background-1");
-		$('#bg-img').title = bg_title[bg_img[x]];
-		$('.bg-desc').html(bg_title[bg_img[x]]);
-		if(x<bg_img.length-1){
-			x+=1;
-		}
-		else{
-			x=0;
-		}
-    });
+	$('#bg-img').removeClass();
+	$('#bg-img').addClass(bg_img[x]);
+	$('#bg-img').addClass("parallax-background-1");
+	$('#bg-img').title = bg_title[bg_img[x]];
+	$('.bg-desc').html(bg_title[bg_img[x]]);
+	if(x<bg_img.length-1){
+		x+=1;
+	}
+	else{
+		x=0;
+	}
+  });
 });
